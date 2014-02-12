@@ -1,7 +1,8 @@
 Source: live-config
 Section: misc
 Priority: optional
-Maintainer: Debian Live Project <debian-live@lists.debian.org>
+Maintainer: BlankOn Devloprs <blankon-dev@googlegroups.com>
+XSBC-Original-Maintainer: Debian Live Project <debian-live@lists.debian.org>
 Uploaders: Daniel Baumann <daniel@debian.org>
 Build-Depends: debhelper (>= 9)
 Build-Depends-Indep: lsb-release
