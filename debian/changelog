@@ -1,3 +1,10 @@
+live-config (3.0.23-1+deb8u1blankon1) suroboyo; urgency=low
+
+  * Added 01-screensaver-idle.patch
+  * Fix lock screensaver to using idle-active
+
+ -- Mahyuddin Ramli <yudi.al@gmail.com>  Wed, 12 Feb 2014 08:53:09 +0700
+
 live-config (3.0.23-1+deb8u1) unstable; urgency=low
 
   * Removing experimental systemd and upstart backends (Closes: #726536).
