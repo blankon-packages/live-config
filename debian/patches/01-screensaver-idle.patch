@@ -1,8 +1,0 @@
-diff -Naur -p1 live-config-3.0.23.orig/scripts/config/1040-gnome-screensaver live-config-3.0.23/scripts/config/1040-gnome-screensaver
---- live-config-3.0.23.orig/scripts/config/1040-gnome-screensaver	2014-02-12 08:45:47.698443703 +0700
-+++ live-config-3.0.23/scripts/config/1040-gnome-screensaver	2014-02-12 08:49:27.790372852 +0700
-@@ -40,3 +40,3 @@ Configure_gnome_screensaver ()
- 		# wheezy
--		sudo -u "${LIVE_USERNAME}" gsettings set org.gnome.desktop.screensaver lock-enabled false
-+		sudo -u "${LIVE_USERNAME}" gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
- 	else
